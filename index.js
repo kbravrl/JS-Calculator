@@ -3,10 +3,6 @@ const display = document.getElementById("display");
 let result = "";
 
 function appendToDisplay(input) {
-    if(result) {
-        result = "";
-        display.value ="";
-    }
     display.value += input;
 
 }
